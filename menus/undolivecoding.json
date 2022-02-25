@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle undolivecoding",
+        "command": "undolivecoding:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "undolivecoding",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "undolivecoding:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
