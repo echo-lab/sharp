@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
+    "cmd-alt-x": "undolivecoding:createbox",
     "ctrl-alt-x": "undolivecoding:toggle"
   }
 }

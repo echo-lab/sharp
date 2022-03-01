@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "undolivecoding:toggle"
+            },
+            {
+              "label": "CreateBox",
+              "command": "undolivecoding:createbox"
             }
           ]
         }
