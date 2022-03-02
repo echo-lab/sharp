@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-x": "undolivecoding:toggle"
+    "ctrl-alt-x": "undolivecoding:toggle",
+    "ctrl-enter": "undolivecoding:enter"
   }
 }
