@@ -16,4 +16,3 @@
 ## Current Bugs
 - Creating a box and then moving the line it is on replaces text on the original line, not the moved line
 - Boxes don't work with multi line commands
-- Boxes don't adjust size when text overflows

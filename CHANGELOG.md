@@ -4,3 +4,5 @@
 
 ## 0.1.1 - Custom Patterns available
 * Fixed custom pattern bugs
+
+## 0.1.2 - Dynamically changing box heights
