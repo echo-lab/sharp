@@ -6,3 +6,6 @@
 * Fixed custom pattern bugs
 
 ## 0.1.2 - Dynamically changing box heights
+
+## 0.1.3 - Box replaces 1 line above marker
+* Box consistently replaces correct line of text, even if line number is changed
