@@ -9,3 +9,6 @@
 
 ## 0.1.3 - Box replaces 1 line above marker
 * Box consistently replaces correct line of text, even if line number is changed
+
+## 0.2.0 - Works for Tidal commands multiple lines Reloading
+* Parses through comments to determine pattern number
