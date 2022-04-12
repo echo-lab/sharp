@@ -1,3 +1,18 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 0.1.0 - First Functional Release
+* No view yet besides radio buttons
+* Bugs listed in README.md
+
+## 0.1.1 - Custom Patterns available
+* Fixed custom pattern bugs
+
+## 0.1.2 - Dynamically changing box heights
+
+## 0.1.3 - Box replaces 1 line above marker
+* Box consistently replaces correct line of text, even if line number is changed
+
+## 0.2.0 - Works for Tidal commands multiple lines Reloading
+* Parses through comments to determine pattern number
+
+## 0.2.1 - Bug Fixes
+* Lines between pattern and corresponding box can exist w/o breaking the plugin
+* Functions like setcps() are not processed
