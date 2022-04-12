@@ -12,3 +12,7 @@
 
 ## 0.2.0 - Works for Tidal commands multiple lines Reloading
 * Parses through comments to determine pattern number
+
+## 0.2.1 - Bug Fixes
+* Lines between pattern and corresponding box can exist w/o breaking the plugin
+* Functions like setcps() are not processed

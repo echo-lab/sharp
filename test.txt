@@ -1,10 +1,6 @@
 -- Set cps to be a fast house beat
 setcps (130/60/4)
 
-TODO: Make a new way to close/open the boxes
-Fix paragraph stuff
-Fix other pattern stuff (xfade, p)
-
 -- a bass drum
 d1 $ s "bd ~ bd ~" # gain 2.0
 
