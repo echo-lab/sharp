@@ -11,6 +11,8 @@
    and use the "Window: Reload" command to reload the page and refresh the
    package.
 
+To Future Drew: did you put 'use babel'; on line 1?
+
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 
 ## Current Bugs
