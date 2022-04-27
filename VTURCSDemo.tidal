@@ -1,0 +1,15 @@
+d1 $ n "a b c d" # s "superchip" # legato 0.3 # pan sine # room 0.8 # size 0.8 # gain 1.1
+
+d2 $ n "c d e f" # "superchip"
+
+
+d3 $ n "8(7,16)" # s "superpwm" # pan sine
+
+
+
+d4 $ s "[hc*2 ho]*4"
+
+
+d5 $ n "a*2 b c(3,8) d" # s "superchip"
+
+hush

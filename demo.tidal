@@ -1,6 +1,6 @@
 d1 $ jux rev $ off 0.25 (|+ n 12) $ slow 2
 $ n "a*4 e [c a c d] a e [c a c d] a e <c a> a e c <g a> <g e> <d b> ~"
-# s "superchip" # room 0.3 # size 0.3 # gain 1 # legato 0.5
+# s "superchip" # room 0.3 # size 0.3 # gain 1 # legato 1.7
 
 d2 $ superimpose (jux rev . fast 2)
 $ n "<d e f g> c b a"

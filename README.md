@@ -15,4 +15,14 @@ To Future Drew: did you put 'use babel'; on line 1?
 
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
 
+## TODOs
+* Change line of text
+* Represent graph in terms of index
+* get unhover func working
+* selected node highlighting
+* look into key binding resolving
+
+## Future work
+* Make a way for you to add multiple patterns to history at once
+
 ## Current Bugs
