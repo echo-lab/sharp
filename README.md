@@ -26,3 +26,4 @@ To Future Drew: did you put 'use babel'; on line 1?
 * Make a way for you to add multiple patterns to history at once
 
 ## Current Bugs
+* Known problem with selecting nodes where the setSelected doesn't work right when pressing enter
