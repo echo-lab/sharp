@@ -1,0 +1,41 @@
+-- "Quicksilver"
+-- Drew Bowman, with SHARP (State-History Augmentation for Rapid Programming)
+-- May 4, 2022
+hush
+
+d7 $ s "arpy"
+
+xfadeIn 1 8 $ n "~"
+
+xfadeIn 2 8 $ n "~"
+
+xfadeIn 3 8 $ n "~"
+
+xfadeIn 4 8 $ n "~"
+
+xfadeIn 5 8 $ n "~"
+
+xfadeIn 6 8 $ n "~"
+
+d6 $ loopAt 8 $ s "bev:1" # gain 1.5 # delay 0.2
+
+
+d1 $ jux rev $ n "<e f g a> c a c [f*3] a e [<a c e> d a c]"
+# s "superpiano" # legato 1.5 # octer 1 # octersub 1 # room 0.8 # size 0.8 # gain 0.9 # crush 4
+
+d2 $ jux rev $ n "<f e d a f d e [f g]> ~ ~ ~" # s "superhoover" # legato 4 # room 0.5 # size 0.5
+
+
+xfade 3 $ every 4 (#speed 1.125) $ every 2 (#speed 0.85 ) $ every 3 (#speed 0.9) $ every 1 (#speed 1.35) $ n "8(11,16)"
+# s "bass3:8" # pan sine # room 0.5 # gain 1.5
+
+
+d4 $ jux rev $ stack [
+    s "<[hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 hc*16 [hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 [hc ho]*8>",
+    s "kick*2 bd <[~ kick] bd> [~ bd]" # gain 1.1,
+    s "clap:6*4"
+] # room 0.5 # size 0.3 # crush 2
+
+
+
+d5 $ slow 4 $ n "d c g a" # s "psin" # octave 7 # gain 0.8 # lfo 5 # octersub 1 # squiz 4

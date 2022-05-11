@@ -18,11 +18,11 @@ To Future Drew: did you put 'use babel'; on line 1?
 ## TODOs
 * Change line of text
 * Represent graph in terms of index
-* get unhover func working
-* selected node highlighting
-* look into key binding resolving
 
 ## Future work
 * Make a way for you to add multiple patterns to history at once
+* line diffs
+* look into key binding resolving
 
 ## Current Bugs
+* ids are not unique
