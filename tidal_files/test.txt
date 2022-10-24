@@ -5,11 +5,14 @@ setcps (130/60/4)
 d1 $ s "bd ~ bd ~" # gain 2.0
 
 -- high-hat pattern
-d2 $ s "[~ hh]*2" # crush 4
+d2 $ s "[~ hh]*2" # crush 7
+# legato 3
 
 -- 1.. 1.. 1.. 1..
 d3 $ s "numbers:1(7,15)"
 # clip 5
+# cut 1
+# bash 2.5
 
 xfade 1 $ s "sound thingy"
 

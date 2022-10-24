@@ -5,7 +5,7 @@ setcps (130/60/4)
 d1 $ s "bd ~ bd ~" # crush 3
 
 -- high-hat pattern
-d2 $ s "[~ hh]*2" # crush 4
+d2 $ s "[~ hh]*2"
 
 -- 1.. 1.. 1.. 1..
 d3 $ s "numbers:1(7,15)" # clip
@@ -13,7 +13,7 @@ d3 $ s "numbers:1(7,15)" # clip
 xfade 1 $ s "sound thingy"
 
 -- clap
-d4 $ s "cp cp cp"
+d4 $ s "cp cp cp" # hi 45
 
 --using patterns instead of d1-d16
 p 1234 $ s "bd bd"
