@@ -25,4 +25,3 @@ To Future Drew: did you put 'use babel'; on line 1?
 * look into key binding resolving
 
 ## Current Bugs
-* ids are not unique

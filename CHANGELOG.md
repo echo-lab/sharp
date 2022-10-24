@@ -25,3 +25,6 @@
 
 ## 0.3.1 - Fixed box location bug
 * Box always appears at bottom of code paragraph block
+
+## 0.3.2 - Fixed tree node ID bug
+* Node IDs are now unique (see tree.js for more info)
