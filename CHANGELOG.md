@@ -17,8 +17,11 @@
 * Lines between pattern and corresponding box can exist w/o breaking the plugin
 * Functions like setcps() are not processed
 
-## 0.5.0 - D3 Implemented with line previews
+## 0.3.0 - D3 Implemented with line previews
 * Radio buttons are no more, replaced by D3 graph nodes
 * Hovering over a node offers a preview of the line inside that node
 * Command for sending a line history is changed to 'ctrl-shift-enter'
   * This is to not conflict with Tidal keyboard commands
+
+## 0.3.1 - Fixed box location bug
+* Box always appears at bottom of code paragraph block
