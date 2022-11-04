@@ -28,3 +28,6 @@
 
 ## 0.3.2 - Fixed tree node ID bug
 * Node IDs are now unique (see tree.js for more info)
+
+## 0.3.3 - Moved D3 graph of nodes to above code lines
+* Fixed bug where different line lengths caused box to move rapidly

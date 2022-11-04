@@ -12,7 +12,7 @@ d2 $ s "[~ hh]*2" # crush 7
 d3 $ s "numbers:1(7,15)"
 # clip 5
 # cut 1
-# bash 2.5
+# bash 3.8
 
 xfade 1 $ s "sound thingy"
 
