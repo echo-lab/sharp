@@ -26,3 +26,4 @@ To Future Drew: did you put 'use babel'; on line 1?
 * look into key binding resolving
 
 ## Current Bugs
+* Messing with line highlighting produces bugs

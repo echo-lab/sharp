@@ -31,3 +31,7 @@
 
 ## 0.3.3 - Moved D3 graph of nodes to above code lines
 * Fixed bug where different line lengths caused box to move rapidly
+
+## 0.3.4 - Added State Matching Indicator on Line Numbers
+* Highlights line number when states don't match
+* Not tested thoroughly, contains bugs
