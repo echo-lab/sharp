@@ -35,3 +35,6 @@
 ## 0.3.4 - Added State Matching Indicator on Line Numbers
 * Highlights line number when states don't match
 * Not tested thoroughly, contains bugs
+
+## 0.3.5 - Edited State Matching Indicator on Line Numbers
+* Compares current line to last run state, not last clicked node state
