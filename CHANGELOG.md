@@ -38,3 +38,7 @@
 
 ## 0.3.5 - Edited State Matching Indicator on Line Numbers
 * Compares current line to last run state, not last clicked node state
+
+## 0.3.6 - Added Node Tagging Functionality
+* Right-Clicking nodes allows them to be tagged various colors
+* This helps performers remember important states
