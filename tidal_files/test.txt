@@ -2,7 +2,7 @@
 setcps (130/60/4)
 
 -- a bass drum
-d1 $ s "bd ~ bd ~" # gain 2.0
+d1 $ s "bd ~ bd ~" # gain 2
 
 -- high-hat pattern
 d2 $ s "[~ hh]*2" # crush 7

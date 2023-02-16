@@ -17,6 +17,14 @@
             {
               "label": "Toggle",
               "command": "undolivecoding:toggle"
+            },
+            {
+              "label": "Run Current Pattern",
+              "command": "undolivecoding:enter"
+            },
+            {
+              "label": "Run All Patterns",
+              "command": "undolivecoding:enterAll"
             }
           ]
         }
