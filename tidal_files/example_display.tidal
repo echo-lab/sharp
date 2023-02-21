@@ -1,6 +1,4 @@
---Sharp Demo
-
-d1 $ s "bd ~ bd ~"
+d1 $ s "bd ~ bd ~" # gain 1.67
 
 d2 $ jux rev $ n "<e f g a> c a c [f*3] a e [<a c e> d a c]"
 # s "superpiano"

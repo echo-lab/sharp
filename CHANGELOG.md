@@ -42,3 +42,8 @@
 ## 0.3.6 - Added Node Tagging Functionality
 * Right-Clicking nodes allows them to be tagged various colors
 * This helps performers remember important states
+
+## 0.4.0 - Re-visualized SHARP Node System
+* Temporary dashed node displays what new version of the tree you are currently typing
+* Running node uses pulse effect
+* Run All patterns option available
