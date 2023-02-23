@@ -22,3 +22,46 @@
   text-align: center;
   padding-top: 5px;
 }
+
+.hoverbox {
+  min-height: 30px;
+  width: 675px;
+
+  border: dashed 1px white;
+
+  text-align: left;
+  //padding-top: 5px;
+}
+
+.edited-line {
+  outline: solid 2px yellow;
+  border-right: solid 2px yellow;
+  border-left: solid 2px yellow;
+
+}
+
+.unedited-line {
+  outline: none;
+  border-right: none;
+  border-left: none;
+
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+.doob {
+  stroke: cyan;
+}
+
+@keyframes pulse-animation {
+  0% {
+    stroke-opacity: 1.0;
+    stroke-width: 0px;
+  }
+  100% {
+    stroke-opacity: 0.0;
+    stroke-width: 15px;
+  }
+}

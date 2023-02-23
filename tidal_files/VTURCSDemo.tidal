@@ -1,0 +1,32 @@
+d1 $ slow 1.5 $ n "g c g c [a b] c [a g] c f c f c e c e g" # s "superchip" # room 0.8 # size 0.8 # gain 1.1
+
+d2 $slow 3$
+n "c g e d c b a g"
+# s "superpwm" # lfo 10 # gain 1 # room 0.8 # size 0.8
+
+
+p "mandolin" $ slow 1.5 $ n "c d b e a f g c" # s "supermandolin" # gain 1.5 # room 0.8 # size 0.5 # legato 2
+
+d3  $ slow 1.5 $ every 3 (#speed 0.85 ) $ every 4 (#speed 1.25) $ n "8(7,16)"
+# s "bass3:8" # pan sine # room 0.5
+
+d4 $ slow 1.5 $ stack [
+    s "[hc*2 ho]*4",
+    s "kick*2 bd bd bd" # gain 0.8,
+    s "clap:6*4"
+]
+
+d5 $ n "a b c d" # s "supermandolin" # room 0.8 # size 0.8 # gain 0.9
+
+
+
+xfadeIn 1 8 $ n "~"
+
+xfadeIn 2 8 $ n "~"
+
+xfadeIn 3 8 $ n "~"
+
+xfadeIn 4 8 $ n "~"
+
+
+hush

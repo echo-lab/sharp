@@ -2,6 +2,11 @@
   "atom-workspace": {
     "ctrl-alt-x": "undolivecoding:toggle",
     "ctrl-enter": "undolivecoding:enter",
-    "ctrl-alt-u": "undolivecoding:unique"
+    "cmd-enter" : "undolivecoding:enter",
+    "ctrl-shift-enter" : "undolivecoding:enter",
+    "cmd-shift-r" : "undolivecoding:enterAll",
+    "ctrl-shift-r" : "undolivecoding:enterAll",
+    "ctrl-alt-u": "undolivecoding:unique",
+    "ctrl-alt-g": "undolivecoding:graph"
   }
 }

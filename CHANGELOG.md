@@ -16,3 +16,34 @@
 ## 0.2.1 - Bug Fixes
 * Lines between pattern and corresponding box can exist w/o breaking the plugin
 * Functions like setcps() are not processed
+
+## 0.3.0 - D3 Implemented with line previews
+* Radio buttons are no more, replaced by D3 graph nodes
+* Hovering over a node offers a preview of the line inside that node
+* Command for sending a line history is changed to 'ctrl-shift-enter'
+  * This is to not conflict with Tidal keyboard commands
+
+## 0.3.1 - Fixed box location bug
+* Box always appears at bottom of code paragraph block
+
+## 0.3.2 - Fixed tree node ID bug
+* Node IDs are now unique (see tree.js for more info)
+
+## 0.3.3 - Moved D3 graph of nodes to above code lines
+* Fixed bug where different line lengths caused box to move rapidly
+
+## 0.3.4 - Added State Matching Indicator on Line Numbers
+* Highlights line number when states don't match
+* Not tested thoroughly, contains bugs
+
+## 0.3.5 - Edited State Matching Indicator on Line Numbers
+* Compares current line to last run state, not last clicked node state
+
+## 0.3.6 - Added Node Tagging Functionality
+* Right-Clicking nodes allows them to be tagged various colors
+* This helps performers remember important states
+
+## 0.4.0 - Re-visualized SHARP Node System
+* Temporary dashed node displays what new version of the tree you are currently typing
+* Running node uses pulse effect
+* Run All patterns option available
