@@ -1,13 +1,13 @@
 {
-  "name": "undolivecoding",
-  "main": "./lib/undolivecoding",
+  "name": "sharp",
+  "main": "./lib/sharp",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "undolivecoding:toggle"
+    "atom-workspace": "sharp:toggle"
   },
-  "repository": "https://github.com/atom/undolivecoding",
+  "repository": "https://github.com/atom/sharp",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,0 +1,11 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-x": "sharp:toggle",
+    "ctrl-enter": "sharp:enter",
+    "cmd-enter" : "sharp:enter",
+    "cmd-shift-r" : "sharp:enterAll",
+    "ctrl-shift-r" : "sharp:enterAll",
+    "ctrl-alt-u": "sharp:unique",
+    "ctrl-alt-g": "sharp:graph"
+  }
+}

@@ -1,44 +1,44 @@
 'use babel';
 
-import Undolivecoding from '../lib/undolivecoding';
+import Sharp from '../lib/sharp';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('Undolivecoding', () => {
+describe('Sharp', () => {
   let workspaceElement, activationPromise;
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('undolivecoding');
+    activationPromise = atom.packages.activatePackage('sharp');
   });
 
-  describe('when the undolivecoding:toggle event is triggered', () => {
+  describe('when the sharp:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.undolivecoding')).not.toExist();
+      expect(workspaceElement.querySelector('.sharp')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'undolivecoding:toggle');
+      atom.commands.dispatch(workspaceElement, 'sharp:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.undolivecoding')).toExist();
+        expect(workspaceElement.querySelector('.sharp')).toExist();
 
-        let undolivecodingElement = workspaceElement.querySelector('.undolivecoding');
-        expect(undolivecodingElement).toExist();
+        let sharpElement = workspaceElement.querySelector('.sharp');
+        expect(sharpElement).toExist();
 
-        let undolivecodingPanel = atom.workspace.panelForItem(undolivecodingElement);
-        expect(undolivecodingPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'undolivecoding:toggle');
-        expect(undolivecodingPanel.isVisible()).toBe(false);
+        let sharpPanel = atom.workspace.panelForItem(sharpElement);
+        expect(sharpPanel.isVisible()).toBe(true);
+        atom.commands.dispatch(workspaceElement, 'sharp:toggle');
+        expect(sharpPanel.isVisible()).toBe(false);
       });
     });
 
@@ -51,11 +51,11 @@ describe('Undolivecoding', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.undolivecoding')).not.toExist();
+      expect(workspaceElement.querySelector('.sharp')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'undolivecoding:toggle');
+      atom.commands.dispatch(workspaceElement, 'sharp:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -63,10 +63,10 @@ describe('Undolivecoding', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let undolivecodingElement = workspaceElement.querySelector('.undolivecoding');
-        expect(undolivecodingElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'undolivecoding:toggle');
-        expect(undolivecodingElement).not.toBeVisible();
+        let sharpElement = workspaceElement.querySelector('.sharp');
+        expect(sharpElement).toBeVisible();
+        atom.commands.dispatch(workspaceElement, 'sharp:toggle');
+        expect(sharpElement).not.toBeVisible();
       });
     });
   });

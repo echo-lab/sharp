@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle undolivecoding",
-        "command": "undolivecoding:toggle"
+        "label": "Activate SHARP",
+        "command": "sharp:toggle"
       }
     ]
   },
@@ -12,19 +12,19 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "undolivecoding",
+          "label": "SHARP",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "undolivecoding:toggle"
+              "label": "Activate SHARP",
+              "command": "sharp:toggle"
             },
             {
               "label": "Run Current Pattern",
-              "command": "undolivecoding:enter"
+              "command": "sharp:enter"
             },
             {
               "label": "Run All Patterns",
-              "command": "undolivecoding:enterAll"
+              "command": "sharp:enterAll"
             }
           ]
         }
