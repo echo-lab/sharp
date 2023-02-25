@@ -1,10 +1,10 @@
 {
-  "atom-workspace": {
+  "atom-workspace atom-text-editor:not([mini])[data-grammar~='tidalcycles']": {
     "ctrl-alt-x": "sharp:toggle",
     "ctrl-enter": "sharp:enter",
     "cmd-enter" : "sharp:enter",
-    "cmd-shift-r" : "sharp:enterAll",
-    "ctrl-shift-r" : "sharp:enterAll",
+    "cmd-alt-shift-enter" : "sharp:enterAll",
+    "ctrl-alt-shift-enter" : "sharp:enterAll",
     "ctrl-alt-u": "sharp:unique",
     "ctrl-alt-g": "sharp:graph"
   }
