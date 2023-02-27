@@ -5,7 +5,6 @@
     "cmd-enter" : "sharp:enter",
     "cmd-alt-shift-enter" : "sharp:enterAll",
     "ctrl-alt-shift-enter" : "sharp:enterAll",
-    "ctrl-alt-u": "sharp:unique",
-    "ctrl-alt-g": "sharp:graph"
+    "ctrl-alt-u": "sharp:unique"
   }
 }

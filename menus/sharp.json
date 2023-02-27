@@ -19,12 +19,8 @@
               "command": "sharp:toggle"
             },
             {
-              "label": "Run Current Pattern",
-              "command": "sharp:enter"
-            },
-            {
-              "label": "Run All Patterns",
-              "command": "sharp:enterAll"
+              "label": "Allow/Disallow unique nodes in graphs",
+              "command": "sharp:unique"
             }
           ]
         }

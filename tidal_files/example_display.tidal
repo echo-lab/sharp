@@ -1,4 +1,4 @@
-d1 $ s "bd ~ bd ~" # gain 1.67
+d1 $ s "hh*4" # gain 1.67 # crush 5
 
 d2 $ jux rev $ n "<e f g a> c a c [f*3] a e [<a c e> d a c]"
 # s "superpiano"
@@ -10,4 +10,4 @@ d4 $ jux rev
 $ n "<f e d a f d e [f g]> ~ ~ ~" # s "superhoover" # room 0.8 # size 0.8
 
 
-d4 $ jux rev $ n "hi"
+d5 $ jux rev $ s "kick*4"

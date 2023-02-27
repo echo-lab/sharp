@@ -47,3 +47,7 @@
 * Temporary dashed node displays what new version of the tree you are currently typing
 * Running node uses pulse effect
 * Run All patterns option available
+
+## 0.4.1 - Modified Node-Tagging System
+* Tag node context menu still exists when right-clicking a node
+* Command-clicking a node cycles through the available color options
