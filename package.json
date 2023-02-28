@@ -1,5 +1,5 @@
 {
-  "name": "tidal-sharp",
+  "name": "sharp",
   "main": "./lib/sharp",
   "version": "0.0.0",
   "description": "This package allows state-history interaction with the TidalCycles live-coding language.",
