@@ -1,13 +1,13 @@
 {
-  "name": "sharp",
+  "name": "tidal-sharp",
   "main": "./lib/sharp",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "This package allows state-history interaction with the TidalCycles live-coding language.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "sharp:toggle"
   },
-  "repository": "https://github.com/atom/sharp",
+  "repository": "https://github.com/echo-lab/sharp",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
