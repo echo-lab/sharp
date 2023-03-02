@@ -5,7 +5,9 @@
 
 ## Directions for Installation
 
-Download the package on Pulsar. Alternatively...
+Download the package on Pulsar. This can be done installing the package through the packages menu on the Pulsar application or running `pulsar -p install tidal-sharp` in your terminal.
+
+Alternatively...
 
 1. Clone the repo
 1. (Most likey): need to run `npm install` in the project folder.
