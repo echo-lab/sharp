@@ -21,6 +21,10 @@
             {
               "label": "Allow/Disallow unique nodes in graphs",
               "command": "sharp:unique"
+            },
+            {
+              "label": "Dump History to File...",
+              "command": "sharp:dumpHistory"
             }
           ]
         }

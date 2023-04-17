@@ -51,3 +51,6 @@
 ## 0.4.1 - Modified Node-Tagging System
 * Tag node context menu still exists when right-clicking a node
 * Command-clicking a node cycles through the available color options
+
+## 0.8.0 - Published Package!! with History Dump save feature
+* Crude saving feature that saves your SHARP version history into a new file in the same directory as the file you are working on

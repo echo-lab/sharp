@@ -38,3 +38,4 @@ Alternatively...
 
 ## Current Bugs
 * Messing with line highlighting produces bugs
+* Scrolling on history boxes glitches out
