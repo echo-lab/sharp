@@ -28,6 +28,8 @@ Alternatively...
 4. After making changes, you can open the command palette with Ctrl/Cmd+Shift+P
    and use the "Window: Reload" command to reload the page and refresh the
    package (the keyboard shortcut for this is __ctrl + opt + cmd + l__).
+   Beware, however, as you will lose all your SHARP history if you do this.
+   You may want to consider `Packages > SHARP > Dump History to File...` (or __ctrl + opt + cmd + s__) before reloading the window.
 
 ## Interacting with SHARP
 * Running a Tidal pattern will create a version history for that pattern. If it is the first time running that pattern, a graph with one history node will appear. Otherwise, a node will be added to the graph as a child of the currently selected node.
