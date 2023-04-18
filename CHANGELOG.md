@@ -55,5 +55,5 @@
 ## 0.8.0 - Published Package!! with History Dump save feature
 * Crude saving feature that saves your SHARP version history into a new file in the same directory as the file you are working on
 
-## 0.13.0 - Improved saving feature by logging tagged nodes
+## 0.14.0 - Improved saving feature by logging tagged nodes
 * Comments below versions that were tagged saying which color they were tagged
