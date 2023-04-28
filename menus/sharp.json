@@ -23,7 +23,7 @@
               "command": "sharp:unique"
             },
             {
-              "label": "Dump History to File...",
+              "label": "Save History to File...",
               "command": "sharp:dumpHistory"
             }
           ]
