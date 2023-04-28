@@ -6,6 +6,7 @@
     "cmd-alt-shift-enter" : "sharp:enterAll",
     "ctrl-alt-shift-enter" : "sharp:enterAll",
     "ctrl-alt-u": "sharp:unique",
-    "ctrl-alt-cmd-s": "sharp:dumpHistory"
+    "ctrl-alt-cmd-s": "sharp:dumpHistory",
+    "ctrl-alt-cmd-q": "sharp:quit"
   }
 }

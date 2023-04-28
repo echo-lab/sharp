@@ -25,11 +25,9 @@ Alternatively...
 2. Run one block of code with the TidalCycles keyboard shortcut __ctrl+enter__ (or __cmd+enter__). Note that SHARP will not run alongside TidalCycles if you choose the TidalCycles Eval commands from the Packages drop-down. You *must* use the keyboard shortcuts if you want both to run together.
 * Alternatively, run all blocks of code with the TidalCycles keyboard shortcut __ctrl+alt+shift+enter__ (or __cmd+alt+shift+enter__).
 3. You can choose whether or not to allow duplicate code entries in the state-history tree SHARP creates for you by going to the Packages drop-down menu and choosing `SHARP > Allow/Disallow unique nodes in graphs` or by using the keyboard shortcut __ctrl+alt+u__.
-4. After making changes, you can open the command palette with Ctrl/Cmd+Shift+P
-   and use the "Window: Reload" command to reload the page and refresh the
-   package (the keyboard shortcut for this is __ctrl + opt + cmd + l__).
-   Beware, however, as you will lose all your SHARP history if you do this.
-   You may want to consider `Packages > SHARP > Dump History to File...` (or __ctrl + opt + cmd + s__) before reloading the window.
+4. After making changes, you can close the package with `Packages > SHARP > Quit SHARP` (the keyboard shortcut for this is __ctrl + opt + cmd + q__).
+   You will be asked to save your history into a file if you do this with an unsaved SHARP history.
+   You can also save to a file manually with `Packages > SHARP > Dump History to File...` (or __ctrl + opt + cmd + s__).
 
 ## Interacting with SHARP
 * Running a Tidal pattern will create a version history for that pattern. If it is the first time running that pattern, a graph with one history node will appear. Otherwise, a node will be added to the graph as a child of the currently selected node.

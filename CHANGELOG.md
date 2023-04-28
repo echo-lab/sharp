@@ -57,3 +57,6 @@
 
 ## 0.14.0 - Improved saving feature by logging tagged nodes
 * Comments below versions that were tagged saying which color they were tagged
+
+## 0.15.0 - Added warnings for saving before quitting or closing file
+* Added quit SHARP package command for closing gracefully

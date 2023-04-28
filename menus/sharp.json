@@ -25,6 +25,10 @@
             {
               "label": "Save History to File...",
               "command": "sharp:dumpHistory"
+            },
+            {
+              "label": "Quit SHARP",
+              "command": "sharp:quit"
             }
           ]
         }
