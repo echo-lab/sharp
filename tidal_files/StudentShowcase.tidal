@@ -1,9 +1,12 @@
 -- "Quicksilver"
 -- Drew Bowman, with SHARP (State-History Augmentation for Rapid Programming)
 -- May 4, 2022
+-- edited June 6, 2023
 hush
 
-d7 $ s "arpy"
+d7 $ jux rev $ n "8 1 2 3 5 6 [5 6] [7 10]" # s "arpy" # speed 1.125 # room 0.5 # distort 1
+
+d8 $ n "10(5,8)" # s "arpy" # speed 1.125 # room 0.7 # size 0.3 # distort 2 # gain 0.8
 
 xfadeIn 1 8 $ n "~"
 
@@ -15,13 +18,17 @@ xfadeIn 4 8 $ n "~"
 
 xfadeIn 5 8 $ n "~"
 
-xfadeIn 4 8 $ n "~"
+xfadeIn 6 8 $ n "~"
 
-d6 $ loopAt 8 $ s "bev:1" # gain 1.5 # delay 0.2 # distort 1
+xfadeIn 7 8 $ n "~"
+
+xfadeIn 8 8 $ n "~"
+
+d6 $ loopAt 8 $ s "bev:1" # gain 1.5
 
 
 d1 $ jux rev $ n "<e f g a> c a c [f*3] a e [<a c e> d a c]"
-# s "superpiano"
+# s "superpiano" # distort 1
 
 d2 $ jux rev $ n "<f e d a f d e [f g]> ~ ~ ~" # s "superhoover" # room 0.8 # size 0.8
 
@@ -31,7 +38,9 @@ xfade 3 $ every 4 (#speed 1.125) $ every 2 (#speed 0.85 ) $ every 3 (#speed 0.9)
 
 
 d4 $ jux rev $ stack [
-    s "<[hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 hc*16 [hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 [hc ho]*8>"
+    s "<[hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 hc*16 [hc*2 ho]*4 [hc*2 ho]*4 [hc*2 ho]*4 [hc ho]*8>",
+    s "~ ~ kick kick ~ ~ kick ~",
+    s "sn sn sn sn"
 ] # room 0.5 # size 0.3
 
 
